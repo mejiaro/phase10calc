@@ -6,7 +6,7 @@ describe 'Home Path' do
 
     it 'is successful' do
       expect(last_response.status).to eq 200
-      expect(last_response.body).to include('This is a penalty calculator for Phase10.')
+      expect(last_response.body).to include('This is a penalty calculator for Phase10')
     end
   end
 end
